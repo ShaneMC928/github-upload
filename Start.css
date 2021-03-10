@@ -1,0 +1,275 @@
+*{
+    margin:auto;
+    max-width:1200px;
+    padding:0;
+    font-weight:300;
+    font-family: 'Work Sans', sans-serif;
+    }
+    
+    /*
+    .One-TopofPageDetails{
+        background:cover;
+        background-repeat: no-repeat; 
+        background-attachment:fixed;
+        background-image:url(unsplashimage2.jpg);
+            background-image:url(coolsymbol.png);
+        background-size: 100px 80px;
+        background-repeat: no-repeat;
+        background-attachment:initial;
+        background-position:center;  
+    
+    }
+    */    
+       
+    .One-TopOfPage{
+      background-color:#05386B;
+      background-image:url(coolsymbol.png);
+      background-image:url(Leftimage.jpg);
+      background-repeat:no-repeat;
+      background-position:center;
+      background-size: 60%; 
+      opacity: 0.9;
+      font-weight: bold;
+      background-blend-mode: lighten;
+      background-blend-mode: overlay;
+    }
+    
+    .ForFlex{
+      display:flex;
+      justify-content:space-evenly;
+    }
+    
+      
+    button {
+        background: #379683;
+        border: 0;
+          padding: 10px 20px;
+          color: white;
+          border-radius: 5px;
+          font-family: 'Montserrat', sans-serif; 
+    }
+    
+    
+    .top{
+    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size:25px; 
+            text-align: center;
+            line-height: 1.4;
+    }
+    
+    .topheader{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size:65px; 
+      text-align: center;
+      line-height: 1.0;
+      font-weight: bold; 
+      font-family: 'Montserrat', sans-serif; 
+    }
+    
+    
+    
+    .Two-Details{
+    height:150px;
+    background-color:#EDF5E1;
+        display: inline-grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        padding: 10px;
+        grid-gap:6px;
+        padding-bottom:30px;
+    }
+    
+    
+    .gridone {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start:1;
+        grid-row-end:1;
+        font-family: 'Montserrat', sans-serif; 
+      }
+    
+      .gridtwo {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start:2;
+        grid-row-end:4;
+        text-align: center;
+        vertical-align:middle;
+        line-height: 1.6; 
+      }
+    
+      .gridthree {
+        grid-column-start: 3;
+        grid-column-end: 3;
+        grid-row-start:2;
+        grid-row-end:4;
+        text-align: center;
+        vertical-align:middle;
+        line-height: 1.6;
+      }
+      
+    /* Flex development section, swapping out the version 1 grid approach wiht a new flex approach*/
+    
+    
+    .ForFlex{
+      display:flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    
+    
+      .ImageCards{
+    /*
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        grid-gap:10px;
+    */
+        text-align: center;	
+        line-height: 1.6;
+        background-color:#05386B;
+        box-shadow: 0 0 4px rgba(51,51,51,0.4);
+        border:1px solid black;
+        padding:10px;
+      }
+    
+    
+    .Card{
+      background-color:white;
+      height:280px;
+      width:250px;
+      border: solid 3px black;
+      box-shadow: 0 0 4px rgba(51,51,51,0.4);
+      border:1px solid black;
+      padding:10px;
+    }
+    
+    /* Flex development section, swapping out the version 1 grid approach wiht a new flex approach*/
+    
+    
+    
+    .icon{
+    width:100%;
+    height:50%;
+    border: solid 1px black;
+    }
+    
+    img>icon{
+      border:1px black;
+    }
+    
+    
+    
+      .CoolFont{
+        font-family: 'Montserrat', sans-serif; 
+      }
+    
+    
+      .Four-Details{
+    Height:180px;
+    background-color:#EDF5E1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+      }
+    
+    
+      .Dual color area{
+        display:flex;
+        flex-wrap: wrap;
+        align-self: center;
+        height:150px;
+      
+      }
+       
+      .dualheader,.dual{
+        text-align:center;
+        align-items:center;
+        padding:20px;
+        font-family: 'Montserrat', sans-serif; 
+      }
+    
+     .Five-DetailsA{
+      background-color:#05386B;
+      color:white;
+      width:50%;
+      height:100%;
+     }
+    
+    
+      .Five-DetailsB{
+      background: #379683;
+      color:white;
+      width:50%;
+      height:100%;
+      }
+    
+    .Six-BottomArea{
+      display:flex;
+      font-family: 'Montserrat', sans-serif; 
+    }
+    
+      .Left-Bottom,.Right-Bottom{
+        background:black;
+        color:white;
+        padding:20px;
+        width:100%;
+        text-align:center;
+      }
+    
+    
+      @media (max-width: 700px){
+       
+        .Two-Details{
+          height:150px;
+          background-color:#EDF5E1;
+              display: inline-grid;
+              grid-template-columns: 1fr 1fr 1fr;
+              grid-template-rows: 1fr 1fr 1fr;
+              height:200px;
+             
+          }
+    
+          .gridone {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start:1;
+            grid-row-end:1;
+            text-align: center;
+          }
+        
+          .gridtwo {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start:2;
+            grid-row-end:2;
+            text-align: center;
+            vertical-align:middle;
+            line-height: 1.6; 
+          }
+        
+          .gridthree {
+            grid-column-start: 1;
+            grid-column-end: 4;
+            grid-row-start:3;
+            grid-row-end:3;
+            text-align: center;
+            vertical-align:middle;
+            line-height: 1.6;
+          }
+    
+          .ImageCards{
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+          }
+    
+        }
+     
